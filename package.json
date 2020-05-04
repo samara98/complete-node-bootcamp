@@ -1,0 +1,26 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "Learning Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Sulthon Abdul Malik",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samara98/complete-node-bootcamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samara98/complete-node-bootcamp/issues"
+  },
+  "homepage": "https://github.com/samara98/complete-node-bootcamp#readme"
+}
