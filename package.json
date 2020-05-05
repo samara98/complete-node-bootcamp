@@ -1,0 +1,36 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "start:prod": "NODE_ENV=production nodemon ./bin/www",
+    "debug": "ndb ./bin/www",
+    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samara98/complete-node-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "Sulthon Abdul Malik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samara98/complete-node-bootcamp/issues"
+  },
+  "homepage": "https://github.com/samara98/complete-node-bootcamp#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+  }
+}
